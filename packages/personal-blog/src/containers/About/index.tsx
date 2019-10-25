@@ -18,24 +18,14 @@ import {
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: "https://www.facebook.com/redqinc/",
-    tooltip: "Facebook",
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: "https://www.instagram.com/redqinc/",
-    tooltip: "Instagram",
-  },
-  {
     icon: <IoLogoTwitter />,
-    url: "https://twitter.com/redqinc",
+    url: "https://twitter.com/erinjerri",
     tooltip: "Twitter",
   },
   {
     icon: <IoLogoLinkedin />,
-    url: "https://www.linkedin.com/company/redqinc/",
-    tooltip: "Linked In",
+    url: "https://www.linkedin.com/in/erinjerri/",
+    tooltip: "LinkedIn",
   },
 ]
 
@@ -63,11 +53,9 @@ const About: React.FunctionComponent<AboutProps> = props => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>About StoryHub</h2>
+        <h2>About Erin Pangilinan</h2>
         <p>
-          StoryHub is a beautiful Gatsby Blog theme designed to showcase your
-          work in style. Perfect for designers, artists, photographers and
-          developers to use for their portfolio website.
+          Stealth biotech x XR x AI entrepreneur, lifelong artist, software engineer (coding since age 8) and computational designer hybrid, internationally renowned published author, educator, and expert in XR, scholar-activist.
         </p>
       </AboutPageTitle>
 
@@ -76,18 +64,32 @@ const About: React.FunctionComponent<AboutProps> = props => {
       </AboutImage>
 
       <AboutDetails>
-        <h2>Hey there, what’s up?</h2>
+        <h2>My Story</h2>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
+        Stealth Project: I am creating new approaches to real-time 3D data and machine learning visualization tools used in spatial computing to advance biotech and healthtech starting with on neurodegenerative brain disease, particularly Alzheimer’s Disease.
         </p>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
+        <h2>Fellowships</h2>
+        *Alley Founder Program - housed at Verizon Ventures, Palo Alto - (2019)
+        </p>    <p>
+        *University of San Francisco (USF), Data Institute, Deep Learning Program (2017-2018)
+        </p>
+        *Oculus Launch Pad (2018)
+        <p></p><p></p>
+        <h2>Specialities</h2>
+        <p>Data Science, AI, Augmented Reality, Virtual Reality, Computational Life Sciences.
+        </p><p>
+        I speak elementary: Tagalog, French.
+        </p> <p>
+        I write and read: HTML, CSS, JS, Objective Swift, Python, C#, C++, LAMP (Linux, MySQL, PHP).
+        </p> <p>
+        Tools of choice: XCode, Unity, Unreal Engine, Adobe (Photoshop, InDesign, Illustrator, XD), Sketch, Maya.
+        </p> <p>
+        <h2>More about my latest book</h2>
+        I conceptualized the O’Reilly Media book anthology: Creating Augmented and Virtual Realities: Theory and Practice for Next-Generation of Spatial Computing, to be translated into Chinese (December 2019), Korean (February 2020) and Japanese (2020). All book sales go toward diversity and inclusion education programs to my 501(c)(3) non-profit ARVR Academy, focused on serving women and underrepresented communities.
+        </p> <p>
+        <h2>Scholar Activism</h2>
+        About my open-source contributions to community: I co-founded, scaled, and serve on the board of 2 diversity and inclusion tech 501(c)(3) non-profit organizations focused on education, professional development and innovation, Filipino Americans in STEAM (Science Tech Engineering Arts and Math (FASTER, President) and ARVR Academy (Board Member).
         </p>
 
         <SocialProfiles>

@@ -4,9 +4,9 @@ import Image from "gatsby-image"
 import SocialProfile from "components/SocialProfile/socialProfile"
 import { IntroWrapper, IntroImage, IntroTitle, Desciption } from "./style"
 import {
-  IoLogoFacebook,
+//  IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoInstagram,
+//  IoLogoInstagram,
   IoLogoGithub,
 } from "react-icons/io"
 
@@ -14,23 +14,13 @@ type IntroProps = {}
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: "#",
-    tooltip: "Facebook",
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: "#",
-    tooltip: "Instagram",
-  },
-  {
     icon: <IoLogoTwitter />,
-    url: "#",
+    url: "http://www.twitter.com/erinjerri",
     tooltip: "Twitter",
   },
   {
     icon: <IoLogoGithub />,
-    url: "#",
+    url: "http://www.github.com/erinjerri",
     tooltip: "Github",
   },
 ]
