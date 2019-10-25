@@ -44,25 +44,6 @@ const InstagramShowcase: React.FunctionComponent<ShowcaseProps> = props => {
             fontSize: "20px",
           }}
         />
-        Me On Instagram
-      </ShowcaseTitle>
-      <InstashowcaseRow>
-        {InstaPosts && (
-          <>
-            {InstaPosts.map(({ node }: any) => (
-              <InstashowcaseCol key={node.id}>
-                <InstagramGrid
-                  image={node.localFile.childImageSharp.fluid}
-                  like={node.likes}
-                  comment={node.comments == null ? "0" : node.comments}
-                  url={`https://www.instagram.com/p/${node.id}`}
-                />
-              </InstashowcaseCol>
-            ))}
-          </>
-        )}
-      </InstashowcaseRow>
-    </InstShowcaseWrapper>
   )
 }
 

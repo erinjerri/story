@@ -3,9 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import SocialProfile from "components/SocialProfile/socialProfile"
 import {
-  IoLogoFacebook,
+//  IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoInstagram,
+//  IoLogoInstagram,
   IoLogoLinkedin,
 } from "react-icons/io"
 import {
